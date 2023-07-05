@@ -1,0 +1,72 @@
+header {
+  background-image: url('../../assets/images/bg-pattern-intro-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  padding: 3.25rem;
+}
+
+.header-container {
+  border-radius: 0 0 0 100px;
+  background: var(--gradient-cta);
+}
+
+.hero-cta {
+  padding: 1rem;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.hero-cta h1 {
+  font-size: 3rem;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hero-btns .btn {
+  padding: 0.75rem 1.25rem;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.start-btn {
+  background-color: #fff;
+  color: var(--text-color-cta);
+  border: none;
+}
+
+.learn-btn {
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn {
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.start-btn:hover {
+  background-color: #ff7b86;
+  color: #fff;
+}
+
+.learn-btn:hover {
+  background-color: #fff;
+  color: var(--text-color-cta);
+}

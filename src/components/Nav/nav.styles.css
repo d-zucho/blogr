@@ -1,0 +1,32 @@
+.navbar-container {
+  display: flex;
+  font-size: 16px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  gap: 1.5rem;
+}
+
+.links a {
+  padding-right: 0.25rem;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+
+.signUp {
+  background-color: #fff;
+  color: var(--text-color-cta);
+  border: none;
+  padding: 0.65rem 1.5rem;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
