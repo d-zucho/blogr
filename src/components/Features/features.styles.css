@@ -1,0 +1,45 @@
+.features {
+  font-family: 'Overpass', serif;
+  margin: 2rem 0 2rem;
+}
+
+.feature-desc {
+  font-size: 0.9rem;
+  line-height: 1.8;
+}
+
+.feature-desc:first-of-type {
+  margin-bottom: 3rem;
+}
+
+.features-header {
+  font-size: 2.25rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.features-content {
+  display: flex;
+}
+
+.features-body {
+  margin-left: 3.25rem;
+  width: 80%;
+}
+.features-body h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.features-main {
+  margin-top: 6.5rem;
+  width: 55%;
+}
+
+.bg-img {
+  width: 40%;
+  margin-top: -5rem;
+  margin-left: auto;
+}

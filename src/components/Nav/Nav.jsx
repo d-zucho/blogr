@@ -28,7 +28,7 @@ function Nav() {
       </nav>
       <div className='login-container'>
         <a href='#'>Login</a>
-        <button className='signUp'>Sign Up</button>
+        <button className='btn signUp'>Sign Up</button>
       </div>
     </div>
   )
