@@ -1,4 +1,5 @@
 import './App.css'
+import Details from './components/Details/Details'
 import Features from './components/Features/Features'
 import Header from './components/Header/Header'
 import Nav from './components/Nav/Nav'
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Features />
       <Info />
+      <Details />
     </>
   )
 }

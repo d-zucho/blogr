@@ -1,4 +1,44 @@
 .info {
   background: linear-gradient(165deg, #2d2e40, #3f4164);
   color: white;
+  position: relative;
+  font-family: 'Overpass';
+  border-radius: 0 6.25rem;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  /* justify-content: space-around; */
+  /* gap: 3rem; */
+  /* flex-shrink: 0; */
+  padding-bottom: 5rem;
+  height: 500px;
+}
+
+.content img {
+  height: 600px;
+}
+
+.circle {
+  background-image: url('../../assets/images/bg-pattern-circles.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  width: auto;
+  height: auto;
+}
+
+.info-title {
+  font-weight: 600;
+  margin-top: 9rem;
+}
+
+.info-body {
+  font-weight: 400;
+  margin-top: 1rem;
+  width: 90%;
+  max-width: 600px;
+  line-height: 1.8;
 }
