@@ -1,0 +1,23 @@
+.details {
+  width: 100%;
+  margin: 5rem auto 0;
+  /* padding: 3.25rem; */
+}
+
+.container {
+  display: flex;
+}
+
+.image-container {
+  padding-top: 4rem;
+  transform: translateX(-25rem);
+  position: relative;
+  width: 50%;
+}
+
+.detail {
+}
+
+.detail-info {
+  width: 85%;
+}

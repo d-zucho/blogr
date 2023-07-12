@@ -6,7 +6,32 @@ import React from 'react'
 const Details = () => {
   return (
     <section className='details'>
-      <img src={LaptopImg} alt='Extra details' />
+      <div className='container'>
+        <div className='image-container'>
+          <img src={LaptopImg} alt='Extra details' />
+        </div>
+        <div className='copy-container'>
+          <div className='detail'>
+            <h2 className='info-title'>Free, open, simple</h2>
+            <p className='detail-info'>
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div className='detail'>
+            <h2 className='info-title'>Powerful tooling</h2>
+            <p className='detail-info'>
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
