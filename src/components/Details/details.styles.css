@@ -2,6 +2,7 @@
   width: 100%;
   margin: 5rem auto 0;
   /* padding: 3.25rem; */
+  font-family: 'Overpass';
 }
 
 .container {
@@ -15,9 +16,8 @@
   width: 50%;
 }
 
-.detail {
-}
-
 .detail-info {
   width: 85%;
+  line-height: 1.8;
+  margin-top: 1rem;
 }

@@ -1,8 +1,8 @@
 import './App.css'
 import Details from './components/Details/Details'
 import Features from './components/Features/Features'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
-import Nav from './components/Nav/Nav'
 import Info from './components/info/Info'
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <Features />
       <Info />
       <Details />
+      <Footer />
     </>
   )
 }
