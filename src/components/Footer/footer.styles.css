@@ -16,10 +16,12 @@ footer {
 .col h2 {
   font-size: 0.9rem;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .col-details p {
   font-size: 0.8rem;
-  margin-bottom: 0.5rem;
+  line-height: 2rem;
   cursor: pointer;
+  font-weight: 400;
 }

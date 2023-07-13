@@ -1,12 +1,10 @@
 import InfoImg from '../../assets/images/illustration-phones.svg'
-import BgPattern from '../../assets/images/bg-pattern-circles.svg'
 
 import './info.styles.css'
 
 function Info() {
   return (
     <section className='info'>
-      {/* <img className='background' src={BgPattern} alt='circle' /> */}
       <div className='circle' />
       <div className='content'>
         <img className='phones' src={InfoImg} alt='phones' />

@@ -9,25 +9,20 @@
 
 .content {
   display: flex;
-  /* justify-content: space-around; */
-  /* gap: 3rem; */
-  /* flex-shrink: 0; */
   padding-bottom: 5rem;
   height: 500px;
+  background-image: url('../../assets/images/bg-pattern-circles.svg');
+  background-repeat: no-repeat;
+  background-position: bottom 0px left -300px;
 }
 
 .content img {
   height: 600px;
 }
 
-.circle {
-  background-image: url('../../assets/images/bg-pattern-circles.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: white;
-  width: auto;
-  height: auto;
+.background {
+  border-radius: 0rem 6.25rem;
+  background: linear-gradient(135deg, #2d2e40 0%, #3f4164 100%);
 }
 
 .info-title {
