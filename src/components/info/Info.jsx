@@ -5,7 +5,6 @@ import './info.styles.css'
 function Info() {
   return (
     <section className='info'>
-      <div className='circle' />
       <div className='content'>
         <img className='phones' src={InfoImg} alt='phones' />
         <div className='info-copy'>

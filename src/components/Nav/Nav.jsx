@@ -7,23 +7,56 @@ function Nav() {
     <div className='navbar-container'>
       <img src={logo} alt='Logo' />
       <nav className='links'>
-        <div className='link-container'>
+        <div className='link-container dropdown'>
           <a href='#' className='link'>
             Product
           </a>
           <img src={downArrow} alt='' />
+          <div className='dropdown-items'>
+            <a className='item' href='#'>
+              Overview
+            </a>
+            <a className='item' href='#'>
+              Pricing
+            </a>
+            <a className='item' href='#'>
+              Marketplace
+            </a>
+          </div>
         </div>
         <div className='link-container'>
           <a href='#' className='link'>
             Company
           </a>
           <img src={downArrow} alt='' />
+          <div className='dropdown-items'>
+            <a className='item' href='#'>
+              Overview
+            </a>
+            <a className='item' href='#'>
+              Pricing
+            </a>
+            <a className='item' href='#'>
+              Marketplace
+            </a>
+          </div>
         </div>
         <div className='link-container'>
           <a href='#' className='link'>
             Contact
           </a>
           <img src={downArrow} alt='' />
+          <div className='dropdown-items'>
+            <a className='item' href='#'>
+              Overview
+            </a>
+            <a className='item' href='#'>
+              Pricing
+            </a>
+            <a className='item' href='#'>
+              Marketplace
+            </a>
+          </div>
         </div>
       </nav>
       <div className='login-container'>

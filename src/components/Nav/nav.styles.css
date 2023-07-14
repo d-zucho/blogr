@@ -12,6 +12,12 @@
 
 .links a {
   padding-right: 0.25rem;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    font-weight: 400;
+    text-decoration: underline;
+  }
 }
 
 .login-container {
@@ -36,4 +42,52 @@
   transform: scale(1.05);
   background-color: #ff7b86;
   color: #fff;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  /* padding: 1rem 0; */
+
+  &:hover .dropdown-items {
+    display: block; /* Show the dropdown content when we mouse over the dropdown button */
+    /* top: 12px; */
+    left: -50%;
+    transition: all 0.2s ease-in-out;
+  }
+
+  &:hover .dropdown-items .item {
+    display: block;
+  }
+
+  &:hover img {
+    transform: rotate(180deg);
+  }
+}
+
+.items {
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-items {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  top: 15px;
+
+  .item {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .item:hover {
+    background-color: #ddd;
+    text-decoration: none;
+    font-weight: 600;
+  }
 }
